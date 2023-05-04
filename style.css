@@ -40,20 +40,21 @@ header {
 
 .hero-heading {
   position: absolute;
-  width: 100%;
-  top: 50px;
+  inset: 0;
   margin: 0;
-  /* background-image: linear-gradient(
-    rgba(0, 0, 0, 0) 50%,
-    rgba(0, 0, 0, 1) 100%
-  ); */
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
 }
 
 .hero-heading h1 {
+  margin: -160px 0 0;
   font-weight: 400;
   font-size: 80px;
   line-height: 95px;
-  text-align: center;
+  text-align: center; 
   color: #ffffff;
 }
 
